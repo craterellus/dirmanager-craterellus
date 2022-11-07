@@ -29,6 +29,7 @@ function listDirContents(filepath) {
             const files = yield fs.promises.readdir(filepath);
             const detailedFilesPromises = files.map((file) => __awaiter(this, void 0, void 0, function* () {
                 let fileDetails = yield fs.promises.lstat(path.resolve(filepath, file));
+                console.log(fileDetails);
                 const { size, birthtime } = fileDetails;
                 return { filename: file, "size(KB)": size, created_at: birthtime };
             }));
