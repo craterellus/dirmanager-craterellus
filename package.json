@@ -1,5 +1,5 @@
 {
-  "name": "directory_manager",
+  "name": "@craterellus/dirmanager",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -9,6 +9,10 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craterellus/dirmanager-craterellus"
+  }
   "keywords": [],
   "author": "Sarah Lopez <sarah.singing.cheese@gmail.com> (https://github.com/craterellus)",
   "license": "MIT",
